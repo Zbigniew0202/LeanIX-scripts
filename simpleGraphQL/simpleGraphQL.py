@@ -9,9 +9,9 @@ import time
 
 api_token = None
 #Alternatively, the api_token could be passed in the python script itself. In order to do this, uncomment the following line
-#api_token = "<your api-token>"
-auth_url = 'https://svc.leanix.net/services/mtm/v1/oauth2/token' 
-mtm_base_url = 'https://svc.leanix.net/services/mtm/v1' 
+api_token = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+auth_url = 'https://eu.leanix.net/services/mtm/v1/oauth2/token' 
+mtm_base_url = 'https://eu.leanix.net/services/mtm/v1' 
 pathfinder_base_url = 'https://app.leanix.net/services/pathfinder/v1'
 
 def getApiToken():
